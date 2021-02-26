@@ -1,13 +1,13 @@
 _pkgname=firmware-xiaomi-beryllium
 pkgname=$_pkgname-git
 pkgver=r7.g5dff7ac
-pkgrel=3
+pkgrel=4
 pkgdesc='Linux firmware for Xiaomi Beryllium'
 arch=(any)
-url='https://gitlab.com/sdm845-mainline/firmware-xiaomi-beryllium.git'
+url='https://gitlab.com/sdm845-mainline/firmware-xiaomi-beryllium/-/tree/old-with-mdt'
 provides=($_pkgname)
 conflicts=(linux-firmware)
-source=("git+https://gitlab.com/sdm845-mainline/firmware-xiaomi-beryllium.git")
+source=("git+https://gitlab.com/sdm845-mainline/firmware-xiaomi-beryllium.git#branch=old-with-mdt")
 sha256sums=('SKIP')
 options=('!strip')
 
