@@ -1,6 +1,6 @@
-_hash=e3d05adb57894563e334159ae69e6b3f8b7eef7a24fae7d7cb316cb80604b48c
+_hash=f8143250287452ab4a60fdbc00d84549f544012835a781128d3c3504880db93a
 pkgname=firmware-xiaomi-beryllium
-pkgver="$(echo $_hash | cut -c1-8)"
+pkgver=1
 pkgrel=1
 pkgdesc='Linux firmware for Xiaomi Beryllium'
 arch=(any)
