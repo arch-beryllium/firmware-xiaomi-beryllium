@@ -1,7 +1,7 @@
-_hash=169925543541899dd9e471c50d9d3a8d1c376c073db1bcf2a9d698f1a3b8c490
+_hash=6a606321317764b2eb7e0b4b21b698d16a89e22d3075d7f2ee5f0b0d38b3c014
 pkgname=firmware-xiaomi-beryllium
 pkgver=2
-pkgrel=1
+pkgrel=2
 pkgdesc='Linux firmware for Xiaomi Beryllium'
 arch=(any)
 url='https://github.com/arch-beryllium/firmware'
